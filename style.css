@@ -1,0 +1,166 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+}
+
+#footer{
+    position: absolute;
+    bottom: 5px;
+    color: rgb(237, 237, 237);
+    text-align: center;
+    font-size: 8px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.pictureInfo {
+    display: flex;
+    position: relative; 
+    max-width: 400px; 
+    margin: auto; 
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+.logo-container {
+    position: absolute; 
+    top: 73px; 
+    width: 100%; 
+    box-sizing: border-box; 
+    max-width: 400px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    width: 100px;  
+    height: auto;
+    margin-right: 10px; 
+}
+
+.odin-text {
+    color: white; 
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#logo {
+    width: 150px;
+}
+
+#input{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+h1{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+button{
+    background-color: #596D48;
+    color: white;
+    border-radius: 10px;
+    padding: 15px 50px 15px 50px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer; 
+}
+
+.surround{
+   background-color: #fbfbfb;
+}
+
+#top{
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#middle{
+    box-shadow: 0px 5px 3px rgba(133, 133, 133, 0.5);
+    padding: 20px;
+}
+
+#bottom{
+    padding: 20px;
+    
+}
+
+.login-text {
+    color:  #596D48; 
+    font-weight: bolder;
+}
+
+input{
+    border: 1px solid #E5E7EB; 
+    border-radius: 5px;
+    padding: 10px;
+    min-width: 200px;
+}
+
+#input p {
+    margin: 0;
+    margin-top: 20px;
+    color: rgb(102, 101, 101);
+    font-size: 10px;
+    font-weight: bolder;
+    
+}
+
+.error-message {
+    display: block; 
+    color: red;    
+    margin-top: 3px; 
+    font-size: 12px; 
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+#password_error{
+    color: rgb(170, 59, 59);
+}
+
+
+input[type="password"]:invalid {
+    border: 1px solid rgb(170, 59, 59);
+}
+
+input:focus {
+   
+    border: 1px solid rgb(77, 77, 150);
+}
+
+img {
+    height: 100vh; 
+    object-fit: cover; 
+    max-width: 400px;
+}
